@@ -31,9 +31,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
+            
           },
           "configurations": {
             "production": {
@@ -96,7 +103,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           }
         },
         "lint": {
@@ -127,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "TaskManager"
+  "defaultProject": "TaskManager",
+  "cli": {
+    "analytics": "0010f1dc-6dd0-4927-bcb1-dabea8b4bfa9"
+  }
 }
